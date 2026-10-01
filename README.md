@@ -24,7 +24,7 @@ phish_intel/
 
 ### Prerequisites
 
-* Python 3.10 or higher
+* Python 3.14 or higher
 * [uv](https://github.com/astral-sh/uv) package manager
 * [Temporal CLI](https://docs.temporal.io/cli) (for running local workflows)
 
@@ -79,10 +79,10 @@ uv run phish-worker
 
 ### 3. Exploratory Notebooks
 
-Launch Jupyter Lab to explore data and prototype modifications to the model architecture:
+Launch [marimo](https://marimo.io) to explore data and prototype modifications to the model architecture:
 
 ```bash
-uv run jupyter lab notebooks/
+uv run marimo edit notebooks/
 
 ```
 
